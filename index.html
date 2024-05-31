@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./mediaQuery.css" />
+    <title>E-Commerce Website</title>
+  </head>
+
+  <body>
+    <main style="overflow-x: hidden; position: relative">
+      <header>
+        <a href=""
+          ><img src="./img/women-image/1200px-Bareeze_logo.svg.png" alt=""
+        /></a>
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="Product.html">Products</a></li>
+          <li><a href="About.html">About Us</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <i onclick="mve()" class="bi bi-list icnlist"></i>
+        <div>
+          <i onclick="mv()" class="bi bi-basket3 icnn"></i>
+        </div>
+      </header>
+      <div class="sidebar">
+            <i onclick="cl()" class="bi bi-x-lg icn1"></i>
+            <div class="side"></div>
+        </div>
+        <div class="sidebar1">
+            <i onclick="cls()" class="bi bi-x-lg icn1"></i>
+            <ul class="ul">
+                <li><a class="active" href="Home.html">Home</a></li>
+                <li><a href="Product.html">Products</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+      <section class="first">
+        <div class="slid">
+          <div class="slide">
+            <div class="slider">
+              <h1 class="heading">Super Value Deals</h1>
+              <h1 class="heading1">On All Products</h1>
+              <p class="text">Save more with voucher & upto 50% off!</p>
+              <button class="shop"><a href="Product.html">SHOP NOW</a></button>
+            </div>
+            <div class="slider1">
+              <h1
+                class="heading"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="4000"
+              >
+                Super Value Deals
+              </h1>
+              <h1
+                class="heading1"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="4000"
+              >
+                On All Products
+              </h1>
+              <p
+                class="text"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="4000"
+              >
+                Save more with voucher & upto 50% off!
+              </p>
+              <button class="shop"><a href="Product.html">SHOP NOW</a></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="second">
+        <h2 class="heading2">Featured Products</h2>
+        <h3 class="heading3">New Arrival</h3>
+        <p class="text2">Women Collection</p>
+        <div class="box">
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/women-image/bnl1977-blue--_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/women-image/bnl1977-blue--_2_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">TILISIM-E-RAANAI-SHAWL</div>
+            <div class="price">PKR 16,575.00</div>
+          </div>
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/women-image/bnl2097_d.grey_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/women-image/bnl2097_d.grey_3_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">ZURI-01</div>
+            <div class="price">PKR 17,470.00</div>
+          </div>
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/women-image/bnl2159_mustered_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/women-image/bnl2159_mustered_3_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">RANG-E-NAV</div>
+            <div class="price">PKR 15,875.00</div>
+          </div>
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/women-image/bnl2178_o.green_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/women-image/bnl2178_o.green_3_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">CLASSIC ETHNIC-01</div>
+            <div class="price">PKR 7,250.00</div>
+          </div>
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/women-image/bnl2197_grey_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/women-image/bnl2197_grey_4_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">GAJJ RANGE</div>
+            <div class="price">PKR 8,860.00</div>
+          </div>
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/women-image/bnl2241_black_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/women-image/bnl2241_black_2_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">INARA RANGE</div>
+            <div class="price">PKR 7,830.00</div>
+          </div>
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/women-image/mc1101-beige-_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/women-image/mc1101-beige-_2_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">QOS-E-QAZA-01-SHAWL</div>
+            <div class="price">PKR 25,500.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img
+                class="img1"
+                src="./img/women-image/mc1107_black_1_.jpg"
+                alt=""
+              />
+              <img
+                class="img2"
+                src="./img/women-image/mc1107_black_2_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="article">GUL MINA-01</div>
+            <div class="price">PKR 57,950.00</div>
+          </div>
+        </div>
+      </section>
+      <section class="third">
+        <p class="text2">Man Collection</p>
+        <div class="box">
+          <div class="bx">
+            <div class="bx1">
+              <div class="img">
+                <img
+                  class="img1"
+                  src="./img/man-image/3000000025931-_1_.jpg"
+                  alt=""
+                />
+                <img
+                  class="img2"
+                  src="./img/man-image/3000000025931-_3_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="article">TILISIM-E-RAANAI-SHAWL</div>
+            <div class="price">PKR 16,575.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img
+                class="img1"
+                src="./img/man-image/3000000025964-_1_.jpg"
+                alt=""
+              />
+              <img
+                class="img2"
+                src="./img/man-image/3000000025964-_3_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="article">ZURI-01</div>
+            <div class="price">PKR 17,470.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img
+                class="img1"
+                src="./img/man-image/3000000026193-_1_.jpg"
+                alt=""
+              />
+              <img
+                class="img2"
+                src="./img/man-image/3000000026193-_2_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="article">RANG-E-NAV</div>
+            <div class="price">PKR 15,875.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img
+                class="img1"
+                src="./img/man-image/3000000026253-_1_.jpg"
+                alt=""
+              />
+              <img
+                class="img2"
+                src="./img/man-image/3000000026253-_2_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="article">CLASSIC ETHNIC-01</div>
+            <div class="price">PKR 7,250.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img
+                class="img1"
+                src="./img/man-image/3000000026500-_1_.jpg"
+                alt=""
+              />
+              <img
+                class="img2"
+                src="./img/man-image/3000000026500-_2_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="article">GAJJ RANGE</div>
+            <div class="price">PKR 8,860.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img
+                class="img1"
+                src="./img/man-image/3000000026516-_1_.jpg"
+                alt=""
+              />
+              <img
+                class="img2"
+                src="./img/man-image/3000000026516-_3_.jpg"
+                alt=""
+              />
+            </div>
+            <div class="article">INARA RANGE</div>
+            <div class="price">PKR 7,830.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img class="img1" src="./img/man-image/download (2).jpg" alt="" />
+            </div>
+            <div class="article">QOS-E-QAZA-01-SHAWL</div>
+            <div class="price">PKR 25,500.00</div>
+          </div>
+          <div class="bx">
+            <div class="img">
+              <img class="img1" src="./img/man-image/download (1).jpg" alt="" />
+            </div>
+            <div class="article">GUL MINA-01</div>
+            <div class="price">PKR 57,950.00</div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h2>About</h2>
+            <p>About Us</p>
+            <p>Delivery Information</p>
+            <p>Privacy Policy</p>
+            <p>Term & Conditions</p>
+          </div>
+          <div class="footer-section">
+            <h2>Contact Us</h2>
+            <p>Email: info@clothingbrand.com</p>
+            <p>Phone: +1 123-456-7890</p>
+            <p>Address: 123 Clothing Street, City, Country</p>
+          </div>
+          <div class="footer-section">
+            <h2>Follow Us</h2>
+            <p>Stay updated on our latest collections.</p>
+            <div class="social-icons">
+              <a href="#"><i class="fab bi bi-facebook"></i></a>
+              <a href="#"><i class="fab bi bi-twitter"></i></a>
+              <a href="#"><i class="fab bi bi-instagram"></i></a>
+              <a href="#"><i class="fab bi bi-pinterest"></i></a>
+            </div>
+            <div style="margin-top: 20px">
+              <h4 class="heading2">Registration Here!</h4>
+              <button onclick="show()" class="signup">SIGN-UP</button>
+              <button onclick="show1()" class="login">LOGIN</button>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Your Clothing Brand | Designed by Your Name</p>
+        </div>
+
+        <div class="main">
+          <div class="box1">
+            <h3 class="h1">SIGN UP</h3>
+            <input
+              class="input"
+              type="text"
+              id="signupUsername"
+              placeholder="Enter Name"
+              required
+            />
+            <input
+              class="input"
+              type="email"
+              id="signupEmail"
+              placeholder="Enter Email"
+              required
+            />
+            <input
+              class="input"
+              type="password"
+              id="signupPassword"
+              placeholder="Password"
+              required
+            />
+            <button onclick="signUP()" class="button">Register</button>
+          </div>
+        </div>
+
+        <div class="main1">
+          <div class="box2">
+            <h3 class="h1">LOGIN</h3>
+            <input
+              class="input"
+              type="email"
+              id="loginUseremail"
+              placeholder="Enter Email"
+              required
+            />
+            <input
+              class="input"
+              type="password"
+              id="loginPassword"
+              placeholder="Password"
+              required
+            />
+            <button onclick="logIN()" class="button">Login</button>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="./script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

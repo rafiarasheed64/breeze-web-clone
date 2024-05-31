@@ -1,0 +1,205 @@
+@media screen and (max-width:900px) {
+    .bx {
+        width: 45%;
+    }
+
+    .text3 {
+        font-size: 18px;
+    }
+
+    .second-C {
+        display: block;
+    }
+    /* .sidebar{
+        top: 4.2%;
+    } */
+    .contentdiv-C {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .bx-C {
+        width: 50%;
+    }
+
+    .map {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .box1 {
+        width: 45%;
+    }
+
+    .box2 {
+        width: 45%;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    header {
+        padding: 5px 20px;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    .icnlist {
+        display: block;
+        margin-left: 60%;
+    }
+
+    header a img {
+        height: 50px;
+        width: 100px;
+    }
+
+    .slider1 {
+        background-position: 20%;
+    }
+
+    .style {
+        width: 45%;
+    }
+
+    .img-div {
+        width: 100%;
+    }
+
+    .content-div {
+        width: 100%;
+    }
+
+    .text3 {
+        font-size: 20px;
+    }
+    .sidebar {
+        width: 50%;
+        right: -50%;
+        top: 64px;
+    }
+
+    .left {
+        right: 0;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .style {
+        width: 80%;
+    }
+
+    .box-P {
+        justify-content: center;
+    }
+
+    .second {
+        padding: 20px;
+    }
+
+    .second-A {
+        padding: 20px;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .bx-C {
+        width: 100%;
+    }
+    .sidebar {
+        width: 65%;
+        right: -65%;
+    }
+
+    .left {
+        right: 0;
+    }
+}
+
+@media screen and (max-width:570px) {
+    .bx {
+        width: 100%;
+    }
+
+    .box1 {
+        width: 80%;
+    }
+
+    .box2 {
+        width: 80%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .heading {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .heading1 {
+        font-size: 20px;
+        text-align: start;
+    }
+
+    .text {
+        color: rgb(44, 44, 44);
+        font-size: 16px;
+    }
+
+    .icnlist {
+        margin-left: 30%;
+    }
+
+    .slider {
+        background-position: 65%;
+    }
+
+    .slider1 {
+        padding: 0;
+        align-items: center;
+    }
+
+    .second {
+        padding: 20px;
+    }
+
+    .heading2 {
+        font-size: 25px;
+    }
+
+    .heading3 {
+        font-size: 25px;
+    }
+
+    .third {
+        padding: 20px;
+    }
+
+    .style {
+        width: 95%;
+    }
+
+    .second-P {
+        padding: 20px;
+    }
+
+    .sidebar {
+        width: 90%;
+        right: -90%;
+    }
+
+    .left {
+        right: 0;
+    }
+
+    .second-C {
+        padding: 20px;
+    }
+}
